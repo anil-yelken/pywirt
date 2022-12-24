@@ -1,63 +1,51 @@
 # Pywirt - Python Windows Incident Response Toolkit
 
-Tested Windows 10
+Tested on Windows 10
 
-## Description
+## Overview
 
-With this application, it is aimed to accelerate the incident response processes by collecting information in windows operating systems via winrm.
+Pywirt is a toolkit designed to speed up incident response processes by collecting various types of information from Windows operating systems using winrm. 
 
 ## Features
 
-Information is collected in the following contents.
+Pywirt can collect the following information:
 
-IP Configuration
-
-Users
-
-Groups
-
-Tasks
-
-Services
-
-Task Scheduler
-
-Registry Control
-
-Active TCP & UDP ports
-
-File sharing
-
-Files
-
-Firewall Config
-
-Sessions with other Systems
-
-Open Sessions
-
-Log Entries
+- IP Configuration
+- Users and groups
+- Tasks and services
+- Task Scheduler
+- Registry control
+- Active TCP and UDP ports
+- File sharing
+- Files
+- Firewall configuration
+- Sessions with other systems
+- Open sessions
+- Log entries
 
 ## Installation
 
-git clone https://github.com/anil-yelken/pywirt
+To install Pywirt, follow these steps:
 
-cd pywirt
-
-pip3 install pywinrm
+1. Clone the repository: `git clone https://github.com/anil-yelken/pywirt`
+2. Change into the Pywirt directory: `cd pywirt`
+3. Install the pywinrm package: `pip3 install pywinrm`
 
 ## Usage
 
-The following information should be specified in the cred_list.txt file:
+To use Pywirt, you will need to specify the following information in a file called `cred_list.txt`:
 
 IP|Username|Password
 
-<img src="https://github.com/anil-yelken/pywirt/blob/main/cred_list.jpg">
+Here is an example of what the `cred_list.txt` file might look like:
 
-<img src="https://github.com/anil-yelken/pywirt/blob/main/pywint.jpg">
+![cred_list.jpg](https://github.com/anil-yelken/pywirt/blob/main/cred_list.jpg)
+
+Here is an example of the Pywirt interface:
+
+![pywint.jpg](https://github.com/anil-yelken/pywirt/blob/main/pywint.jpg)
 
 ## Contact
 
-https://twitter.com/anilyelken06
-
-https://medium.com/@anilyelken
+- Twitter: https://twitter.com/anilyelken06
+- Medium: https://medium.com/@anilyelken
